@@ -13,34 +13,102 @@
    Supporting Files: 
 
 */
-header img {
-    width: 45%;
-    float: top;
-    margin-right: 30%;
-    margin-left: 30%;
+
+/* Display styles */
+nav,
+header,
+section,
+article,
+aside,
+footer {
     display: block;
 }
+
+/* Default styles */
 
 html {
-    background: bisque
+    background: tan;
 }
 
-p {
+body {
+    position: relative;
+    background-color: white;
+    font-size: inherit;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    letter-spacing: 0.3em;
+    margin-left: 1em;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+
+/* Body styles */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 95%;
+    min-width: ;
+    max-width: ;
+    margin: ;
+    padding-bottom: ;
+
+}
+
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/* Header Styles */
+
+header img {
+    display: block;
+    width: 100%;
+
+}
+
+header address {}
+
+section>article {
     font-family: 'Times New Roman', Times, serif;
-    float: right;
     clear: both;
-
-}
-
-footer {
-    background-color: rgb(62, 56, 45);
-    clear: both;
-    color: rgb(216, 194, 157);
-    font-size: 12px;
-    line-height: 24px;
-    text-align: center;
-}
-
-nav#rightcol {
     display: block;
 }
+
+/* Navigation List Styles */
+nav.vertical {}
+
+nav.vertical ul {}
+
+nav.vertical li {}
+
+nav.vertical li.newgroup {}
+
+nav.vertical li a {}
+
+nav.vertial li a:hover {}
+
+/* Section Styles */
+section {}
+
+section p {}
+
+/* Left Section Styles */
+
+/* Right Section Styles */
+
+/* Aside Styles */
+
+/* Links to Inside Articles */
